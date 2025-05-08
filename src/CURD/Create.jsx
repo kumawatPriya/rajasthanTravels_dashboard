@@ -43,7 +43,7 @@ function Create() {
       <Dashboard/>
       </div>
       <div className="create-card">
-        <div className="create-card-title"> <p>Create Travelling Cardd</p></div>
+        <div className="create-card-title"> <p>Create Travelling Card</p></div>
         
         <input type="text" name="image" placeholder="Enter Image Src" onChange={(e)=>{setImage(e.target.value)}} value={image}/>
         <input className="input" type="text" placeholder="Enter Title" name="title" onChange={(e) => { setTitle(e.target.value) }} value={title} />
